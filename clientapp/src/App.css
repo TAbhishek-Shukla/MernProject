@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Heebo&family=IBM+Plex+Serif:wght@300&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Heebo&family=IBM+Plex+Serif:wght@300&family=Poppins:wght@500&family=Rowdies:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+/* //Home page styling* */
+
+.home-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height:84vh;
+    background: linear-gradient(
+      to right,
+      rgb(125, 178, 240) 0%,
+      rgb(125, 171, 241) 50%,
+      rgb(246, 248, 248) 50%,
+      rgb(227, 245, 245) 100%
+    );
+}
+
+.home_title{
+    font-size: 0.9rem;
+    text-align: center;
+    color: rgb(44, 9, 243);
+}
+
+/* /signup page style/ */
+.signup-card{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.signup-card:hover{
+    box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.register-form input{
+        border: 0;
+        outline: 0;
+        padding: 2px 8px;
+        border-bottom: 1px solid #313233;
+        color: rgb(48, 46, 46);
+}
+.regi-btn{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+ 
+}
+/* /login page style/ */
+.login-div{
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.login-div:hover{
+    box-shadow: 0 7px 14px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+/* CONTACTPAGESTYLE */
+.contact_info_item{
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.contact_info_content{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.contact_info_text{
+font-size: 0.6rem;
+}
+
+.contact_form_container{
+    font-size: 0.8rem;
+    padding: 20px;
+    margin-top: 2rem;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    
+}
+.contact_form_title{
+    font-size: 1rem;
+}
+
+.input_field{
+    width: 20%;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+.contact_form_text> textarea{
+    width: 100%;
+    height:20% ;
+    margin-bottom: 1rem;
+}
+.contact_form_name input{
+   border: 1px solid rgb(29, 28, 28);
+    color: rgb(48, 46, 46);
+   
+}
+
+/* /signuppage-style */
+.signup-image{
+text-align: center;
+}
+.form-btn{
+    color: white;
+
+}
+
+
+/* //About page styling******* */
+.emp_profile{
+display: flex;
+justify-content: center;
+
+}
+.about_form{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    /* height: 80%; */
+}
+.aboutus{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+}
+.user_pic_div{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.user_pic {
+    width: 80%;
+    height: 50%;
+}
+
+
+.pofile_head{
+    margin-top: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 0.8rem;
+}
+.profile-edit-btn{
+    outline: 1px;
+    border: 1px solid rgb(58, 56, 56);
+    border-radius: 5px;
+    font-size: 0.9rem;
+   
+}
+.about-btm-row{
+    font-size: 0.8rem;
+}
+/* /404 PAGE STYLING/ */
+.notfound{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 12rem;
+}
+.notfound-404{
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   opacity: 0.2; 
+}
+.err-btn{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 15px;
+}
